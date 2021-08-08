@@ -1,0 +1,13 @@
+.header_search {
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding: 30px 40px;
+}
+
+.footer_cs {
+  display: flex;
+  flex-direction: column;
+}
