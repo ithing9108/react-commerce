@@ -1,10 +1,8 @@
 import Link from 'next/link';
 import { Menu, Input } from 'antd';
 import styles from './AppLayout.module.css';
-// const inputStyle = { verticalAlign: "middle" };
-// const footerStyle = { backgroundColor: "#eeeeee" };
+
 const AppLayout = ({ children }) => {
-  console.log(styles);
   return (
     <>
     <header>
