@@ -1,17 +1,17 @@
 import Head from 'next/head';
 import AppLayout from '../../components/AppLayout';
 
-const About = () => {
+const Store = () => {
   return (
     <>
       <Head>
-        <title>About | DoSports</title>
+        <title> Store | DoSports </title>
       </Head>
       <AppLayout>
-        <div>about</div>
+        <div>store (후순위) </div>
       </AppLayout>
     </>
-  )
-}
+  );
+};
 
-export default About;
+export default Store;

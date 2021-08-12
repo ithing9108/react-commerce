@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Menu, Input } from 'antd';
 import styles from './AppLayout.module.css';
 
-const AppLayout = ({ children }) => {
+const AppLayout: React.FC = ({ children }) => {
   return (
     <>
     <header>
@@ -20,7 +20,7 @@ const AppLayout = ({ children }) => {
           <Link href="/course"><a>강의</a></Link>        
         </Menu.Item>
         <Menu.Item key="about">
-          <Link href="/about"><a>어바웃</a></Link>
+          <Link href="/about"><a>소식</a></Link>
         </Menu.Item>
         <Menu.Item>
           <Input.Search className={styles.header_search} enterButton />

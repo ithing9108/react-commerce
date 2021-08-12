@@ -1,6 +1,6 @@
 import AppLayout from '../components/AppLayout';
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <AppLayout>
       <div>Hello doSports</div>
