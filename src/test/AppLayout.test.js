@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/react';
-import AppLayout from '../components/AppLayout';
+import AppLayout from '@/components/AppLayout';
 
 it("AppLayout", () => {
   const { getByText } = render(<AppLayout />);

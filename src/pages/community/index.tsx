@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import AppLayout from '../../components/AppLayout';
+import AppLayout from '@/components/AppLayout';
 
 const Community = () => {
   return (
