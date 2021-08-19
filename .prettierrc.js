@@ -1,11 +1,11 @@
-{
-  "jsxBracketSameLine": false,
-  "singleQuote": true,
-  "semi": true,
-  "useTabs": false,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "printWidth": 120,
-  "arrowParens": "avoid",
-  "endOfLine": "lf"
+module.exports = {
+  jsxBracketSameLine: false,
+  singleQuote: true,
+  semi: true,
+  useTabs: false,
+  tabWidth: 2,
+  trailingComma: "all",
+  printWidth: 120,
+  arrowParens: "avoid",
+  endOfLine: "lf"
 }
