@@ -1,0 +1,25 @@
+{
+  "types": [
+    "feat",
+    "fix",
+    "docs",
+    "style",
+    "refactor",
+    "build",
+    "chore",
+    "test",
+    "revert"
+  ],
+  "scope": {
+    "required": false,
+    "allowed": [
+      "*"
+    ],
+    "validate": false,
+    "multiple": false
+  },
+  "warnOnFail": false,
+  "maxSubjectLength": 100,
+  "helpMessage": "Invalid Commit Message",
+  "autoFix": false
+}
