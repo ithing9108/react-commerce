@@ -1,16 +1,11 @@
+import React, { ReactElement } from 'react';
 import AppLayout from '@/components/AppLayout';
 
-const Home: React.FC = () => {
+function Home(): ReactElement {
   return (
     <AppLayout>
       <div>Hello doSports</div>
-      <div>.</div>
-      <div>.</div>
-      <div>.</div>
-      <div>.</div>
-      <div>.</div>
-      <div>.</div>
     </AppLayout>
-  )
-};
+  );
+}
 export default Home;

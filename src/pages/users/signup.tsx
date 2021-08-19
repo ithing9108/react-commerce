@@ -1,6 +1,7 @@
+import React, { ReactFragment } from 'react';
 import Head from 'next/head';
 
-const Sigunup = () => {
+function Sigunup(): ReactFragment {
   return (
     <>
       <Head>
@@ -8,7 +9,7 @@ const Sigunup = () => {
       </Head>
       <div>Signup</div>
     </>
-  )
+  );
 }
 
 export default Sigunup;

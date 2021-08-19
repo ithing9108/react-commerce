@@ -1,7 +1,8 @@
+import React from 'react';
 import Head from 'next/head';
 import AppLayout from '@/components/AppLayout';
 
-const Community = () => {
+function Community(): React.ReactElement {
   return (
     <>
       <Head>
@@ -12,6 +13,6 @@ const Community = () => {
       </AppLayout>
     </>
   );
-};
+}
 
 export default Community;

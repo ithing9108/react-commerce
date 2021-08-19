@@ -1,20 +1,18 @@
+import React, { ReactFragment } from 'react';
 import Head from 'next/head';
 import 'antd/dist/antd.css';
+import { AppProps } from 'next/app';
 
-type DoSportsProps = {
-  Component: React.FC
-};
-
-const DoSports: React.FC<DoSportsProps> = ({ Component }) => {
+function DoSports({ Component }: AppProps): ReactFragment {
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
         <title>DoSports!</title>
       </Head>
-      <Component/>
+      <Component />
     </>
-  )
+  );
 }
 
 export default DoSports;

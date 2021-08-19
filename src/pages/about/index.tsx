@@ -1,7 +1,8 @@
+import React, { ReactElement } from 'react';
 import Head from 'next/head';
 import AppLayout from '@/components/AppLayout';
 
-const About = () => {
+function About(): ReactElement {
   return (
     <>
       <Head>
@@ -11,7 +12,7 @@ const About = () => {
         <div>news</div>
       </AppLayout>
     </>
-  )
+  );
 }
 
 export default About;

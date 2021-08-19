@@ -1,6 +1,7 @@
+import React, { ReactFragment } from 'react';
 import Head from 'next/head';
 
-const Login = () => {
+function Login(): ReactFragment {
   return (
     <>
       <Head>
@@ -8,7 +9,7 @@ const Login = () => {
       </Head>
       <div>Login</div>
     </>
-  )
+  );
 }
 
 export default Login;

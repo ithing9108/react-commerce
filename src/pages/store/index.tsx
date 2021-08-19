@@ -1,7 +1,8 @@
+import React, { ReactFragment } from 'react';
 import Head from 'next/head';
 import AppLayout from '@/components/AppLayout';
 
-const Store = () => {
+function Store(): ReactFragment {
   return (
     <>
       <Head>
@@ -12,6 +13,6 @@ const Store = () => {
       </AppLayout>
     </>
   );
-};
+}
 
 export default Store;

@@ -1,7 +1,8 @@
+import React, { ReactElement } from 'react';
 import Head from 'next/head';
 import AppLayout from '@/components/AppLayout';
 
-const Course = () => {
+function Course(): ReactElement {
   return (
     <>
       <Head>
@@ -12,6 +13,6 @@ const Course = () => {
       </AppLayout>
     </>
   );
-};
+}
 
 export default Course;
