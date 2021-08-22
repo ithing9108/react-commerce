@@ -27,8 +27,10 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-    'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
+    'react/forbid-prop-types': 'off',
+    'no-console': 'off',
+    'no-use-before-define': [0],
+    '@typescript-eslint/no-use-before-define': [1],
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/extensions': ['error', 'ignorePackages', { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' }],
   },
