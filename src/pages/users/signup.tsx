@@ -1,7 +1,7 @@
 import React, { ReactFragment } from 'react';
 import Head from 'next/head';
 
-function Sigunup(): ReactFragment {
+function Signup(): ReactFragment {
   return (
     <>
       <Head>
@@ -12,4 +12,4 @@ function Sigunup(): ReactFragment {
   );
 }
 
-export default Sigunup;
+export default Signup;

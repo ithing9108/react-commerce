@@ -2,6 +2,9 @@ import React, { ReactFragment } from 'react';
 import Head from 'next/head';
 import 'antd/dist/antd.css';
 import { AppProps } from 'next/app';
+import { RecoilRoot } from 'recoil';
+import '@/styles/global.css';
+import '@/styles/antd.less';
 
 function DoSports({ Component }: AppProps): ReactFragment {
   return (
@@ -10,7 +13,9 @@ function DoSports({ Component }: AppProps): ReactFragment {
         <meta charSet="utf-8" />
         <title>DoSports!</title>
       </Head>
-      <Component />
+      <RecoilRoot>
+        <Component />
+      </RecoilRoot>
     </>
   );
 }
