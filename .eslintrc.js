@@ -33,6 +33,8 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': [1],
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/extensions': ['error', 'ignorePackages', { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' }],
+    'react/prop-types': 'off',
+    'react/require-default-props': 'off',
   },
   settings: {
     'import/parsers': {
