@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.wrapper {
+  margin: auto 0;
+  max-width: 18rem;
+  text-align: center;
+}
+.logo {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.title {
+  margin-left: 1rem;
+}
+.footer {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.footerLink {
+  color: inherit;
+}

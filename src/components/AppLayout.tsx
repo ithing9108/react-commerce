@@ -41,12 +41,12 @@ function AppLayout({ children }: AppLayoutProps): ReactElement {
             <Input.Search className={styles.header_search} enterButton />
           </Menu.Item>
           <Menu.Item key="login">
-            <Link href="/users/login">
+            <Link href="/user/login">
               <a>로그인</a>
             </Link>
           </Menu.Item>
           <Menu.Item key="signup">
-            <Link href="/users/signup">
+            <Link href="/user/signup">
               <a>회원가입</a>
             </Link>
           </Menu.Item>
