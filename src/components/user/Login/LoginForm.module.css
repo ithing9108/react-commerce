@@ -1,0 +1,18 @@
+.input {
+  width: 100%;
+  padding: 10px;
+}
+.button {
+  width: 100%;
+  padding: 10px;
+  min-height: 3rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+.authWrapper {
+  text-align: center;
+}
+.authLink {
+  color: inherit;
+  margin: 0 10px;
+}
